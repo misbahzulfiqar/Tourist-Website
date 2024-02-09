@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 576px){
+    header{
+        height: 141px;
+        overflow: hidden;
+        
+    }
+    .responsive{
+        visibility: hidden;
+    }
+    .searchbox{
+       position: relative;
+       bottom: 76px;
+    }
+    .section2{
+        margin-top: -25px;
+    }
+    .section2 img{
+        height: 400px;
+    }
+    .section2 .para{
+        font-size: 55px;
+        position: relative;
+        top: 150px;
+    }
+    .section2 .para1{
+        font-size: 18px;
+        position: relative;
+        top: 110px;
+    }
+    .section2 .para2{
+        position: relative;
+        top: 95px;
+    }
+    .input5{
+        position: relative;
+        right: 34px;    
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 .res{
+        width: 100%;
+    }
+    .section3 .res2{
+        width: 100%;
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section3 li .res1{
+        width: 100%;
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+    }
+    .boxesup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .boxesdown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -36px;
+    }
+    .section4 .subbox{
+       width: 100%;
+       margin-top: -25px;
+       
+    }
+    .section4 .subbox img{
+       width: 100%;
+    }
+    .section5 .column .inputs{
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        position: relative;
+        right: 200px;
+    }
+     .input1{
+        position: relative;
+        right: 200px;
+        
+    }
+    #email{
+        width: 250px;
+    }
+    #subscription{
+        position: relative;
+        top: 55px;
+        left: -407px;
+    }
+    .section6 .sec6{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
+    .sec6 .col{
+        width: 100%;
+    }
+    .sec6{
+        position: relative;
+        right: 90px;
+    }
+    .sp{
+        position: relative;
+        left: 143px;
+    }
+    .card .dollar{
+        position: relative;
+        bottom: 247px;
+    }
+    .innerdiv{
+        margin-left: -400px;
+    }
+    .section8{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 260px;
+    }
+    .section8 .subsec8{
+        width: 100%;
+    }
+    .section9{
+        position: relative;
+        bottom: 280px;
+    }
+    .subsec10{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 30px;
+        bottom: 260px;
+    }
+    footer{
+        position: relative;
+        bottom: 260px;
+    }
+    footer .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .icondiv{
+        display: flex;
+    }
+    .subfoot1{
+        align-self: center;
+    }
+    .sub{
+        position: relative;
+        left: 45px;
+        bottom: 30px;
+    }
+    .subfoot .images{
+       display: flex;
+       flex-direction: row;
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+        height: 141px;
+        overflow: hidden;
+        
+    }
+    .responsive{
+        visibility: hidden;
+    }
+    
+    .section3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .widthsss{
+        margin-left: 35px;
+        text-align: center;
+    }
+    .section3 .widthss{
+        width: 622px;
+    }
+    .width1{
+        align-self: center;
+    }
+   .boxesup{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxesdown{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxesdown .subbox img{
+        width: 500px;
+    }
+    .boxesup .subbox img{
+        width: 500px;
+    }
+    .pill .red1, .red{
+        margin-left: 100px;
+    }
+    .section5 .input1{
+        width: 280px;
+    }
+    #subscription{
+        position: relative;
+        right: 223px;
+        top: 80px;
+    }
+     .sec6{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 400px;
+        margin-left: 135px; 
+    }
+     .innerdiv{
+        margin-left: -300px;
+    }
+    .carousel-item .comas{
+        margin-left: -235px;
+    }
+    .section10 .subsec10{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomboxes{
+        align-self: center;
+        margin-right: 125px;
+    }
+    footer{
+        position: relative;
+    }
+    footer .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .icondiv{
+        display: flex;
+    }
+    .subfoot1{
+        align-self: center;
+    }
+    .sub{
+        position: relative;
+        left: 45px;
+        bottom: 30px;
+    }
+    .subfoot .images{
+       display: flex;
+       flex-direction: row;
+    }
+    .subfoot .images img{
+       display: flex;
+       width: 208px;
+       height: 140px;
+
+    }
+}
+
+body{
+    width: 100%;
+}
+.reddish{color: black;}
+.reddish:hover{color: #76d1c3;}
+.icons i{padding-left: 30px;}
+.searchbox{
+    height: 80px;
+    width: 80px;
+    float: right;
+    margin-top: -115px;
+    padding-left: 30px;
+}
+.number{border-left: 2px solid rgb(202, 202, 202);}
+.carousel-caption a {
+	text-decoration: none;
+	padding: 11px 30px;
+}
+.w-100 {height: 100vh;}
+.para{
+	font-family: "Segoe Script";
+	font-size: 120px;
+}
+p{
+	font-size: 20px;
+	line-height: 70px;
+}
+.section3{
+    background-color: #132043;
+    margin-top: -35px;
+}
+.section3 button{
+    width: 225px;
+    height: 50px;
+}
+.sections{
+    width: 225px;
+    height: 50px;
+    margin-top: -23px;
+}
+input[type=text]{
+    background-color: #132043;
+    border: none;
+    outline: 1px solid white;
+    width: 225px;
+    height: 47px;
+    color: white;
+}
+.line, .section5 p, .titles p, .section9 p, .subfoot p, .section8 p{
+    line-height: 30px;
+    font-size: 16px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#img1{
+    padding-right: 15px;
+    border-right: 1px solid rgba(179, 162, 162, 0.582);
+}
+.section4 img{width: 345px;}
+.pill{
+    position: relative;
+    bottom: 60px;
+}
+.subbox:hover .red{color: #e7464e;}
+.red1, .abcd{background-color: #76d1c3;}
+.subbox:hover .red1{background-color: #e7464e;}
+.section5{
+    background-color: #132043;
+    margin-top: 160px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.column{gap: 10px;}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.section6{
+    background-color: #eef3f0;
+    margin-top: -24px;
+}
+.subboxes img{
+    border-radius: 5px;
+    height: 230px;
+}
+.center{margin-top: -30px;}
+.center span{margin-top: -4px;}
+.font{padding-left: 34px;}
+.dollar{
+    width: 80px;
+    position: relative;
+    bottom: 165px;
+}
+.one{
+    position: relative;
+    left: 30px;
+}
+.section7{
+    margin-top: -158px;
+}
+.section7 p{
+    font-size: 70px;
+    font-family: "Segoe Script";
+    position: relative;
+    top: 400px;
+}
+.section9{background-color: #eef3f0;}
+.section9 img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+.comas{
+    width: 73px;
+    border-radius: 50%;
+    position: relative;
+    left: 640px;
+    bottom: 60px;
+}
+.visit{
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: -34px;
+}
+.visit:hover{color: #e7464e;}
+.oct{font-size: 15px;}
+footer{background-color: #132043;}
+.subimage img{
+width: 100px;
+border-radius: 5px;
+}
+ul li a:hover{color: #e7464e;}
+.subbox:hover{transform: translateY(-20px);}
+
+.bg{
+    background-color: #76d1c3;
+    border-radius: 5px;
+}
+.bg:hover{background-color: #e7464e;}
+.btnbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dollar{background-color: rgb(16, 146, 92);}
+.card:hover .dollar{background-color: #e7464e;}
+.card:hover .heading{color: #e7464e;}
+.third{
+    background-color: #e7464e;
+    border-radius: 5px;
+    border: none;
+}
+.third:hover{background-color: #76d1c3;}
+.abcd:hover{background-color: #e7464e;}
+
+
+
+
+
